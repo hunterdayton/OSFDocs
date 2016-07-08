@@ -155,14 +155,14 @@ Commenting
 **Purpose:** Admins can configure the commenting preferences to determine who can comment on a project.
 
 
-In the Commenting panel, the user is shown two options to choose between—radio buttons allow them to select an option::
+In Settings, under the Commenting tab, the user is shown two options to choose between—radio buttons allow them to select an option::
 
     [radio button] Only contributors can post comments
     [radio button] When the project is public, any OSF user can post comments
     [Save]
 
 
-By default, "When the project is public, any OSF user can post comments.
+By default, "When the project is public, any OSF user can post comments."
 
 When only contributors can post comments, non-contributors who visit the project page do not see the comment tab in the upper
 right hand corner of the Project Overview. Anyone with permission to comment sees a blue tab with a chat icon in the upper right
