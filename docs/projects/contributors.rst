@@ -261,6 +261,28 @@ Newly added contributors receive an email notifying them of the change::
     about its supporting organization, the Center for Open Science.
     Questions? Email contact@osf.io
 
+If the newly added contributor is not already an OSF user, the notification email will link to the project he or she has been added to. The email reads::
+    
+    Hello [added contributor name],
+
+    You have been added by [contributor adder name] as a contributor to the project "[project name]" on the Open Science Framework. To set a password for your account, visit: URL
+
+    Once you have set a password, you will be able to make contributions to [project name] and create your own projects. You will automatically be subscribed to notification emails for this project. To change your email notification preferences, visit you project or your user settings: URL
+
+    To preview [project name] click the following link: URL
+
+    (NOTE: if this project is private you will not be able to view it until you have confirmed your account)
+
+    If you are not [added contributor name] or you are erroneously being associated with [project name] then email contact@osf.io with the subject line "Claiming Error" to report the problem.
+
+    Sincerely,
+
+    Open Science Framework Robot
+
+    Want more information? Visit http://osf.io/ to learn about the Open Science Framework, or http://cos.io/ for information
+    about its supporting organization, the Center for Open Science.
+    Questions? Email contact@osf.io
+
 Removing Contributors
 ^^^^^^^^^^^^^^^^^^^
 **Purpose:** Contributors can be removed to prevent them from being listed in the contributor list or from editing the project.
