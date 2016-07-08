@@ -27,7 +27,9 @@ The table of recently updated projects and components contains 3 columns: Title,
 
 The user can sort by date last modified (ascending or descending) and Project or Component title (ascending or descending) by clicking the up or down arrows in the table heading. By default, the most recent 10 projects or components are shown. The user can click the down arrow below these 10 to produce more listings in groups of 10. 
 
-Below the list of the user's projects is a section called "Discover Public Projects." In this section, there are two columns: "New and Noteworthy" and "Most Popular." Each contains links to 5 public projects on the OSF. Below this is a button, "Search for more projects," which takes the user to osf.io/search
+Below the list of the user's projects are icons for OSF for Institutions affiliated partners. These appear 5 at a time on a carousel shifted with "<" and ">" markers. Clicking on an institution icon brings the user to the affiliated institution's landing page, where all public projects affiliated with that institution are listed. 
+
+Below OSF for Institutions icons is a section called "Discover Public Projects." In this section, there are two columns: "New and Noteworthy" and "Most Popular." Each contains links to 5 public projects on the OSF. Below this is a button, "Search for more projects," which takes the user to https://osf.io/search/.
 
 Below this section is a marketing section. Currently this displays information about OSF for Meetings, but it can be used to highlight other products or initiatives. 
 
