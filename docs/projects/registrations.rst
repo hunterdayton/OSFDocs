@@ -113,7 +113,7 @@ Creating a registration in Preregistration Challenge workflow
 ------------
 User navigates from cos.io/prereg to osf.io/prereg, where the user is greeted by two options: login to the OSF or create a new account. 
 
-Whether a user logs into the OSF or creates a new account first, the landing page for prereg provides the user the option to "Start a new preregistration." If the user already has a draft registration, there is also an option to "Continue working on an existing preregistration." If the user has project(s), an option to "Preregister a project you already have on the OSF" is also displayed. 
+Whether a user logs into the OSF or creates a new account first, the landing page for prereg provides the user the option to "Start a new preregistration." If the user already has a draft registration, there is also an option to "Continue working on an existing draft preregistration." If the user has project(s), an option to "Preregister a project you already have on the OSF" is also displayed. 
 
 Clicking "Continue working on an existing preregistration" displays a box::
     
@@ -146,6 +146,8 @@ Clicking "Submit for review" pops up a modal with a Notice of Consent for the Pr
 The preregistration appears in the "Draft registrations" tab with the label "Pending Review." There are buttons to [Preview] or [Delete] the registration. Clicking [Preview] opens the preview of the registration, with a button to go [Back] to the Registrations tab. Clicking [Delete] pops up a modal:: 
     
     Are you sure you want to delete the registration? [Cancel][Delete]
+
+While the preregistration is under review, its files are checked out to prevent editing. Files are checked back in when the user registers the project, the submission is approved through the admin interface, or the submission is rejected through the admin interface. 
 
 
 Embargos

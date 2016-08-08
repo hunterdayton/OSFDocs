@@ -18,30 +18,26 @@ Project/Component
 ^^^^^^^^^^^^^^^^^
 **Purpose:** Configuring the project or component allows the user to update the category, edit the title or description, or delete the project/component.
 
-The first item in the Project panel is "Category." A dropdown allows admins to select a category to assign to the project.
-Projects cannot change their category—the dropdown is visible but inactive and set to "Project." Muted text below a project's dropdown
-reads::
+The first item in the Project and Component panels is "Category (For descriptive purposes)." A dropdown allows admins to select a category to assign to the project or component.
 
-    A top-level project's category cannot be changed.
-
-Component categories can be changed. Prior to editing the category, two deactivated buttons are visible below the dropdown::
+Project and component categories can be changed. Below the dropdown, "Title" and "Description" text boxes appear above two buttons::
 
     [Cancel][Save Changes]
 
-After the user makes a new selection, the buttons become active. Clicking "Save Changes" deactivates the buttons and green inline text
-is added below the buttons::
+Clicking "Save Changes" causes green inline text to be added below the buttons::
 
-Category updated successfully
+    "Successfully updated project settings."
 
-Leaving the page without cancelling or clicking "Save Changes" produces a warning for the user::
+Leaving the page without cancelling or clicking "Save Changes" produces a slighlty different warning for the user dependent on the browser. Safari reads::
 
-    "Confirm Navigation. There are unsaved changes in your project settings. Are you sure you want to leave this page? [Stay on this page][Leave this page]""
+    "Are you sure you want to leave this page? There are unsaved changes in your project settings." 
+    [Stay on this page] [Leave this page]
 
 The available categories are: "Analysis," "Communication," "Data," "Hypothesis," "Instrumentation," "Methods and Measures," "Procedure," "Project," "Software," "Other," "Uncategorized"
 
 .. _todo: log above as enhancement
 
-For admins and read+write contributors on a project or component, the next section allows users to edit the title and description. There is one field for "Title" and one field for "Description."
+For admins and read+write contributors on a project or component, users may also edit the title and description. There is one field for "Title" and one field for "Description."
 
 Below this are two buttons::
 
@@ -50,11 +46,6 @@ Below this are two buttons::
 These buttons are active regardless of whether or not a user has made a change in the text fields. Clicking "Save Changes" produces green inline text below the buttons::
 
 Category updated successfully
-
-Leaving the page without cancelling or clicking "Save Changes" produces a warning for the user::
-
-    "Confirm Navigation. There are unsaved changes in your project settings. Are you sure you want to leave this page? [Stay on this page][Leave this page]""
-
 
 .. TODO:: add in information about read-only permissions (likely not visible at all)
 
@@ -94,12 +85,12 @@ The user must delete components and sub-projects prior to deleting a parent proj
 When a user successfully deletes a component, they are brought to the parent project's overview. A green dismissable alert
 is shown at the top of the page::
 
-    Component deleted.
+    Component has been successfully deleted.
 
 When a user successfully deletes a project, they are brought to their :ref:`user dashboard <dashboard>`. A green dismissable alert
 is shown at the top of the page::
 
-    Project deleted
+    Project has been successfully deleted.
 
 Select Add-ons
 ^^^^^^^^^^^^^^^^

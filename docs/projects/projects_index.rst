@@ -92,3 +92,10 @@ Commenting
 ***********
 
 .. include:: commenting.rst
+
+.. _sharing:
+
+Sharing
+***********
+
+.. include:: sharing.rst
