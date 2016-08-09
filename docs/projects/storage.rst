@@ -183,11 +183,13 @@ On the lower left hand side is a Tags widget, for files stored on OSF Storage. W
 Contributors with read+write or admin permissions can add a tag by clicking in the “Add a tag” field and typing a keyword. Pressing the return key will add the tag. Adding a comma after a tag and pressing the space bar, as if making a list, will also add a tag. Tags appear in blue boxes with a black ‘x’ to the right of the text. Clicking the ‘x’ allows the user to remove the tag.
 Hovering over a tag darkens the background color. Clicking on a tag brings the user to search results page, where the query was the tag name.
 
-If the file can be rendered, it displays in the rest of the screen. Above the rendered file are three buttons: "Download", "View", "Revisions." 
+The file name appears along the top with a hyperlinked "(Version: X)" alongside. Clicking the hyperlink brings the user to "Revisions," displaying all previous versions of files with this name. Each version includes a version ID, date, user, download button, MD5, and SHA2. 
 
-For ADMIN and READ+WRITE contributors, a "Delete" button is also present. For these users and plain text files, an "Edit" button appears. 
+If the file can be rendered, it displays in the rest of the screen. Above the rendered file, three buttons are visible to viewers and READ contributors: "Download", "View", "Revisions." 
 
-For ADMIN contributors and files stored on OSF Storage, the "Check Out" button appears. 
+For ADMIN and READ+WRITE contributors, a "Delete" button is also present. For these users, an "Edit" button appears on plain text files. 
+
+For ADMIN contributors and files stored on OSF Storage, the "Check Out" button appears. Checking out a file means other contributors cannot edit, delete or upload new versions of this file as long as it is checked out. It can be checked back in at any time.
 
 If the file is stored on a 3rd party add-on, a link to view the file on the 3rd party service appears above the rendered file. 
 
